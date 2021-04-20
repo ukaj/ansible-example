@@ -12,7 +12,7 @@ python3 -m venv venv
 pip3 install -r requirements.txt
 ```
 
-Setup ip addresses (EXT_IP, INTIP) in hosts.yaml
+Setup ip addresses ($EXT_IP, $INTIP) in hosts.yaml
 
 ## Run
 
