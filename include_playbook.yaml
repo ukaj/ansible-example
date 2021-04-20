@@ -1,0 +1,8 @@
+---
+- name: include kubespray
+  hosts: node1
+  remote_user: root
+
+  tasks:
+  - name: Include kubespray tasks
+    include_tasks: kubespray/cluster.yml
