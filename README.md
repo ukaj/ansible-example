@@ -1,6 +1,6 @@
 ## Ansible example with included kubespray roles
 
-PoC of ansible repo with included kubespray roles as git submodules
+PoC of ansible repo with included kubespray roles as git submodules.
 Based on instructions from https://github.com/kubernetes-sigs/kubespray/blob/master/docs/integration.md 
 
 ## Prepare enviroment
@@ -12,16 +12,16 @@ python3 -m venv venv
 pip3 install -r requirements.txt
 ```
 
-Set ip addresses (EXT_IP, INTIP) in hosts.yaml
+Setup ip addresses (EXT_IP, INTIP) in hosts.yaml
 
 ## Run
 
-# Include roles
+### Include roles
 Script based on kubespray/cluster.yml
 ```sh
 ansible-playbook include_role.yml -b
 ```
-# Include playbook
+### Include playbook
 !!! This doesn't work
 
 ```sh
