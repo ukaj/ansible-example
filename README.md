@@ -16,7 +16,7 @@ Setup ip addresses ($EXT_IP, $INTIP) in hosts.yaml
 
 ## Run
 
-There are two approeches of including kubespray in your project
+There are two ways of including kubespray in your project
 
 ### Include roles
 Script based on kubespray/cluster.yml
